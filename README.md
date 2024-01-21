@@ -29,12 +29,12 @@
 
 # find:
 
-`node app/index.ts find --title="Hoc NodeJS`
+`node ts-node app/index.ts find --title="Hoc NodeJS`
 
 # completed:
 
-`node app/index.ts completed --id="123456"`
+`node ts-node app/index.ts completed --id="123456"`
 
 # clear:
 
-`node app/index.ts clear`
+`node ts-node app/index.ts clear`
