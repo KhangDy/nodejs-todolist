@@ -117,7 +117,7 @@ yargs.command({
   },
 });
 
-// count - node app/index.ts count
+// count 
 yargs.command({
   command: "count",
   handler: () => {
@@ -126,7 +126,7 @@ yargs.command({
   },
 });
 
-// find - node app/index.ts find --title="Hoc NodeJS"
+// find 
 yargs.command({
   command: "find",
   builder: {
@@ -142,7 +142,7 @@ yargs.command({
   },
 });
 
-// completed - node app/index.ts completed --id="123"
+// completed 
 yargs.command({
   command: "completed",
   builder: {
@@ -161,7 +161,7 @@ yargs.command({
   },
 });
 
-// clear - node app/index.ts clear
+// clear 
 yargs.command({
   command: "clear",
   handler: () => {
